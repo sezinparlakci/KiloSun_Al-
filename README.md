@@ -14,6 +14,6 @@ Python, pandas, NumPy, scikit-learn, matplotlib, Streamlit, joblib
 
 cd KiloSun-Al
 pip install -r requirements.txt
-streamlit run app.py
+streamlit run App.py
 
 Not: Eğitilmiş model (model/best_model.pkl) ve sonuç dosyaları repoda hazır olarak yer almaktadır. Bu nedenle uygulamayı çalıştırmak için yeniden model eğitimi yapmanıza gerek yoktur. Modeli sıfırdan eğitmek isterseniz veri setini data/ klasörüne ekleyip python train_model.py komutunu çalıştırabilirsiniz.
